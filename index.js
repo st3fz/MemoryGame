@@ -44,7 +44,7 @@ $(".btn").click(function() {
 
 // Play audio
 function playSound(name) {
-  var audio = new Audio("sounds/" + name + ".mp3");
+  var audio = new Audio(name + ".mp3");
   audio.play();
 };
 
@@ -68,7 +68,7 @@ function checkAnswer(currentLevel) {
   }
   else {
     console.log("Dayum son, failure.");
-    var audio = new Audio("sounds/wrong.mp3");
+    var audio = new Audio("wrong.mp3");
     audio.play();
     // or
     // playSound("wrong");
