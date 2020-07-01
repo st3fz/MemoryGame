@@ -1,4 +1,4 @@
-var buttonColors = ["red", "blue", "green", "yellow"];
+ar buttonColors = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
@@ -44,7 +44,7 @@ $(".btn").click(function() {
 
 // Play audio
 function playSound(name) {
-  var audio = new Audio(name + ".mp3");
+  var audio = new Audio("name + ".mp3");
   audio.play();
 };
 
