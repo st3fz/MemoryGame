@@ -9,7 +9,7 @@ h1 {
   font-size: 5rem;
   color:white;
   font-family: 'Source Code Pro', monospace;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #ff847c;
 
 }
 
@@ -71,9 +71,9 @@ footer {
   font-family: 'Source Code Pro', monospace;
   line-height: 2;
   font-weight: 900;
-  color: #f7c5a8;
+  color: #ff9c86;
   text-shadow: 3px 0 white;
-  border-radius: 10%;
+  border-radius: 20%;
   display: inline-block;
   width: 150px;
   height: 150px;
