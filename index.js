@@ -2,7 +2,7 @@
 for (var i = 0; i <= 6; i++) {
   document.querySelectorAll("button")[i].addEventListener("click", function() {
     var buttonInnerHTML = this.innerHTML;
-    this.style.color = "#f5c16c"
+    this.style.color = "#ffae8f"
     makeSound(buttonInnerHTML);
     buttonAnimation(buttonInnerHTML);
   });
@@ -13,7 +13,7 @@ for (var i = 0; i <= 6; i++) {
 document.addEventListener("keydown", function(event) {
   var button = document.getElementsByClassName(String.fromCharCode(event.which).toLowerCase())[0];
   var buttonInnerHTML = button.innerHTML;
-  button.style.color = "#f5c16c";
+  button.style.color = "#ffae8f";
   makeSound(event.key);
   buttonAnimation(event.key);
 })
